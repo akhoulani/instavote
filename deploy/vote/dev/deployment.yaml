@@ -6,9 +6,9 @@ metadata:
     app: vote
   name: vote
 spec:
-minReadySeconds: 20
-replicas: 3
-template:
+  minReadySeconds: 20
+  replicas: 3
+  template:
   spec:
     containers:
     - image: schoolofdevops/vote:v4
